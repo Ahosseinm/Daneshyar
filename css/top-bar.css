@@ -1,0 +1,42 @@
+
+/* start top-bar stayles */
+
+.top-bar{
+    padding: 2rem 0;
+    color: var(--white-color);
+}
+.top-bar__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    font-size: 1.4rem;
+}
+.top-bar__right{
+    display: flex;
+}
+.top-bar__menu{
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.top-bar__left{
+    display: flex;
+    gap: 2.5rem;
+}
+.top-bar__email,
+.top-bar__phone{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.top-bar__email-icon,
+.top-bar__phone-icon{
+    font-size: 1.7rem;
+    color: var(--first-color);
+    /* color: var(--third-color); */
+}
+
+
+/* finish top-bar stayles */

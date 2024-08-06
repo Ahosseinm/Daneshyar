@@ -1,0 +1,195 @@
+@import 'default.css';
+@import './variables.css';
+@import 'fonts.css';
+@import url(border-all.css);
+@import 'top-bar.css';
+@import 'main-header.css';
+@import 'helper-clases.css';
+@import 'course-box.css';
+@import 'footer.css';
+
+
+/* start landing */
+.landing{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+    color: var(--white-color);
+    padding: 9rem 0;
+}
+.landing__title{
+    font-size: 4rem;
+    padding-bottom: 1rem;
+}
+.landing__title-word{
+    color: var(--first-color);
+    font-family: Kalameh-Bold;
+}
+.landing__searchbar{
+    width: 70rem;
+    position: relative;
+    margin: 0 auto 4rem auto;
+}
+.landing__searchbar-input{
+    width: 100%;
+    height: 5rem;
+    padding: 0 1rem;
+    background-color: var(--dark-color);
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    outline: hidden;
+    border: 1px solid var(--first-color);
+    color: var(--first-color);
+    
+}
+::-webkit-input-placeholder { color: var(--first-color); }
+:-moz-placeholder { color: var(--first-color); }
+::-moz-placeholder { color: var(--first-color); }
+:-ms-input-placeholder { color: var(--first-color); }
+
+.landing__searchbar-btn{
+    position: absolute;
+    border: none;
+    width: 6rem;
+    height: 4rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    left: 1rem;
+    top: 0.5rem;
+    background-color: var(--dark-color);
+    border: 1px solid var(--first-color);
+    color: var(--first-color);
+    transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+}
+.landing__searchbar-btn:hover{
+    background-color: var(--first-color);
+    color: var(--dark-color);
+}
+.landing__searchbar-icon{
+    font-size: 1.8rem;
+    padding-top: 0.5rem;
+}
+.landing__status{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.landing__status-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.landing__status-icon{
+    fill:var(--first-color);
+}
+.landing__status-count{
+    padding: 1rem 0;
+    font-weight: bold;
+}
+/* finish landing */
+/* start courses */
+/* start header courses */
+.courses{
+    color: var(--white-color);
+    margin: 4rem 0;
+}
+.courses-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.courses-header__right{
+    display: flex;
+    flex-direction: column;
+}
+.courses-header__text{
+    font-size: 1.4rem;
+    margin-top: 0.5rem;
+}
+.courses-header__left-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 15rem;
+    height: 4.3rem;
+    border: 1px solid var(--first-color);
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    color: var(--first-color);
+}
+.courses-header__left-link:hover{
+    background-color: var(--first-color);
+    color: var(--dark-color);
+}
+/* finish header courses */
+/* start courses content */
+.courses-content{
+    padding: 5rem 0;
+}
+
+/* finish courses content */
+/* finish courses */
+/* start about us  */
+.about-us{
+    margin: 6rem 0;
+    color: var(--white-color);
+}
+.about-us__header{
+    display: flex;
+    flex-direction: column;
+}
+.about-us__subtitile{
+    font-size: 1.4rem;
+    margin-top: 0.5rem;
+}
+.about-us__box{
+    /* width: 100%; */
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    height: 10rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    margin-top: 5rem;
+    border: 1px solid var(--secound-color);
+    box-shadow: 0 0 19px rgba(171, 130, 255,0.3);
+}
+.about-us__right{
+    margin-left: 2rem;
+}
+.about-us__icon{
+    width: 6rem;
+    height: 6rem;
+    fill: var(--first-color);
+}
+.about-us__left{
+    display: flex;
+    flex-direction: column;
+}
+.about-us__title{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.about-us__text{
+    font-size: 1.5rem;
+}
+/* finish about us  */
